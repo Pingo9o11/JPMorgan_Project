@@ -2,15 +2,15 @@
 
 ## Repository Structure
 
-├── data/
-│   ├── census-bureau.data
-│   └── census-bureau.columns
-├── notebooks/
-│   ├── EDA.ipynb
-│   └── Modeling.ipynb
-├── README.md
-└── requirements.txt
-
+JPMorgan_Project/
+├── data/ # Raw Census data and column definitions
+│ ├── census-bureau.data
+│ └── census-bureau.columns
+├── notebooks/ # Jupyter notebooks for analysis and modeling
+│ ├── EDA.ipynb
+│ └── Modeling.ipynb
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
 
 # Income Prediction & Segmentation Analysis
 
