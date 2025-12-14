@@ -1,5 +1,5 @@
-# JPMorgan_Project
-gi 
+# JPMorgan Project
+
 
 # Income Prediction & Segmentation Analysis
 
