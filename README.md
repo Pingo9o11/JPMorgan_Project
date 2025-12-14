@@ -1,5 +1,17 @@
 # JPMorgan_Project
 
+## Repository Structure
+
+├── data/
+│   ├── census-bureau.data
+│   └── census-bureau.columns
+├── notebooks/
+│   ├── EDA.ipynb
+│   └── Modeling.ipynb
+├── README.md
+└── requirements.txt
+
+
 # Income Prediction & Segmentation Analysis
 
 ## Overview
