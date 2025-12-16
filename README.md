@@ -34,7 +34,7 @@ Models are evaluated on a held-out test set using:
 
 
 ## Results
-XGBoost outperformed the baseline model in terms of ROC-AUC and recall on the minority class, while maintaining stable precision. Cluster-level summaries reveal distinct demographic profiles associated with income levels.
+Random Forest delivered the most balanced overall performance, combining strong ROC-AUC with stable precision, recall and interpretability making it the most holistic model for this use case. XGBoost also performed very well, especially in detecting high-income individuals (minority class), but its higher variance and lower stability across metrics made it slightly less suitable for broad deployment. The final cluster summaries further reveal distinct demographic and employment patterns that align closely with income levels, supporting targeted segmentation and marketing strategies.
 
 ## How to Run
 1. Clone the repository:
