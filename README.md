@@ -47,7 +47,7 @@ XGBoost outperformed the baseline model in terms of ROC-AUC and recall on the mi
 
 4. jupyter notebook
 
-4. Then open -> Income_Prediction.ipynb 
+4. Then open -> JPMC_Final.ipynb 
 
 Note: All cells are sequential and code has been documented well with docstrings & comments for better understanding. 
 
