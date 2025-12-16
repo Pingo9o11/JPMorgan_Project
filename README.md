@@ -31,6 +31,8 @@ Models are evaluated on a held-out test set using:
 - Confusion matrix
 - Probability-based ROC curves for threshold analysis
 
+
+
 ## Results
 XGBoost outperformed the baseline model in terms of ROC-AUC and recall on the minority class, while maintaining stable precision. Cluster-level summaries reveal distinct demographic profiles associated with income levels.
 
@@ -38,3 +40,25 @@ XGBoost outperformed the baseline model in terms of ROC-AUC and recall on the mi
 1. Clone the repository:
    ```bash
    git clone <https://github.com/Pingo9o11/JPMorgan_Project.git>
+
+2. cd JPMorgan_Project
+
+3. pip install -r requirements.txt
+
+4. jupyter notebook
+
+4. Then open -> Income_Prediction.ipynb 
+
+Note: All cells are sequential and code has been documented well with docstrings & comments for better understanding. 
+
+## Section 1 – Income Prediction Model
+- Data cleaning & preprocessing
+- Handling class imbalance (SMOTE / class weights)
+- Logistic Regression, Random Forest, XGBoost
+- Model evaluation & feature importance
+
+## Section 2 - Customer Segmentation Model
+- Preprocessing & high-signal feature selection
+- Scaling and clustering with K-Means
+- Silhouette analysis
+- Cluster profiling + business insights
